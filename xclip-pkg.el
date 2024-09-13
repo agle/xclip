@@ -1,2 +1,2 @@
 ;; Generated package description from xclip.el  -*- no-byte-compile: t -*-
-(define-package "xclip" "1.11.0.20221221.82941" "Copy&paste GUI clipboard from text terminal" 'nil :commit "ec064e6ea9b236e56c0966b2ce03870a12a5d78d" :url "https://elpa.gnu.org/packages/xclip.html" :authors '(("Leo Liu" . "sdl.web@gmail.com")) :maintainer '("Leo Liu" . "sdl.web@gmail.com") :keywords '("convenience" "tools"))
+(define-package "xclip" "1.11.1.0.20240912.92814" "Copy&paste GUI clipboard from text terminal" 'nil :commit "7febe164de2a881b83b9d604d3c7cf20b69f422d" :url "https://elpa.gnu.org/packages/xclip.html" :authors '(("Leo Liu" . "sdl.web@gmail.com")) :maintainer '("Leo Liu" . "sdl.web@gmail.com") :keywords '("convenience" "tools"))
