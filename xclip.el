@@ -164,6 +164,7 @@ TYPE and DATA are the same as for `gui-set-selection'."
                           (memq type '(clipboard CLIPBOARD primary PRIMARY)))
                  (apply #'start-process
                         "wl-copy" nil xclip-program
+                        "--type" "text/plain;charset=utf-8"
                         (if (memq type '(primary PRIMARY)) '("-p")))))
               (`termux-clipboard-get
                (when (memq type '(clipboard CLIPBOARD))
